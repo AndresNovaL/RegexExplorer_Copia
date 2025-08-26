@@ -1,3 +1,7 @@
+# EDIT: Reto Solucionado
+
+Los pasos que realicé para resolver este reto fue primero cambiar el contenido dentro de la caja de texto para que contenga información relacionada pero distinta a la original. Para la instrucción, utilicé parte de la misma que estaba allí (la coloqué como comentario para poder identificar la inicial con la final) a diferencia de que escapé de forma literal las comillas dobles tanto antes como al final del texto. Este cambio me facilita entender y al mismo tiempo explicar, además de que trae el resultado esperado.
+
 # Reto 4: Buscar cadenas de texto (strings) en un texto
 
 ## Descripción

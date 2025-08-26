@@ -7,12 +7,12 @@
 
 import re
 
-texto = "En la tienda compré 2 manzanas, 5 naranjas y 10 plátanos. El cajero me dijo que debía pagar 7500 pesos, pero yo solo tenía 5000. Al final, mi primo me prestó 2500 y quedamos a mano después de 3 días."
+texto = "En la tienda compré 2 manzanas, -5 naranjas y 10 plátanos. El cajero me dijo que debía pagar -7500 pesos, pero yo solo tenía 5000. Al final, mi primo me prestó -2500 y quedamos a mano después de 3 días."
 
 # Expresión regular para enteros (positivos y negativos)
 
-# patron = r"-?\\b\\d+\\b"
-patron = r"\b\d+"
+# Sugerido: patron = r"-?\\b\\d+\\b"
+patron = r"-?\b\d+\b"
 
 # Buscar todos los enteros
 enteros = re.findall(patron, texto)

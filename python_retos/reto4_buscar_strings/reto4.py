@@ -10,6 +10,7 @@ import re
 texto = 'El profesor dijo "mañana hay examen", y todos los estudiantes respondieron "¿otra vez?". Después, alguien murmuró "yo no estudié nada" y otro agregó "tranquilo, copiamos".'
 
 # Expresión regular para strings entre comillas dobles
+# Sugerido: patron = r'"(.*?)"'
 patron = r"\"(.*?)\""
 
 # Buscar todos los strings

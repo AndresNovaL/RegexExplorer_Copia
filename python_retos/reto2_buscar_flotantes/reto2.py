@@ -7,10 +7,11 @@
 
 import re
 
-texto = "El litro de gasolina cuesta 15.75 pesos, mientras que el pasaje del bus está en 2.50. Ayer caminé 3.2 km, aunque mi app marcó solo 2.9. Al final terminé gastando 20.00 en todo el día."
+texto = "El litro de gasolina cuesta 15.75 pesos, mientras que el pasaje del bus está en -2.50. Ayer caminé 3.2 km, aunque mi app marcó solo -2.9. Al final terminé gastando 20.00 en todo el día, aunque el banco me descontó -5.50 por comisión."
 
 # Expresión regular para flotantes (números con punto decimal)
-patron = r"\b\d+\.\d+"
+# Sugerido: patron = r"-?\\b\\d+\\.\\d+\\b"
+patron = r"-?\b\d+\.\d+\b"
 
 # Buscar todos los flotantes
 flotantes = re.findall(patron, texto)

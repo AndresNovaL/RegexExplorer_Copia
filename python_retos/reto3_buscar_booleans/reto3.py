@@ -10,7 +10,8 @@ import re
 texto = "En el examen de lógica respondí True en la primera pregunta, luego marqué False en la segunda. Mi amigo puso True en casi todas, pero al final la última era False."
 
 # Expresión regular para booleanos (True o False, case-insensitive)
-patron = r"\bFalse|True\b"
+# Sugerido: patron = r"\\b(True|False)\\b"
+patron = r"\b(False|True)\b"
 
 # Buscar todos los booleanos
 booleans = re.findall(patron, texto, re.IGNORECASE)

@@ -1,3 +1,7 @@
+# EDIT: Reto Solucionado
+
+Los pasos que realicé para resolver este reto fue primero cambiar el contenido dentro de la caja de texto para que contenga números enteros tanto positivos como negativos. Para la instrucción, utilicé la misma que estaba allí (la coloqué como comentario para poder identificar la inicial con la final). Aunque me fue un poco difícil de entender por su estructura, extrae la información que se solicita.
+
 # Reto 5: Buscar listas de números en un texto
 
 ## Descripción
