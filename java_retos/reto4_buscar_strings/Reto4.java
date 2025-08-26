@@ -9,8 +9,9 @@ import java.util.regex.*;
 
 public class Reto4 {
     public static void main(String[] args) {
-        String texto = "El mensaje es \"Hola mundo\" y la clave es \"1234\".";
+        String texto = "El profesor dijo \"mañana hay examen\", y todos los estudiantes respondieron \"¿otra vez?\". Después, alguien murmuró \"yo no estudié nada\" y otro agregó \"tranquilo, copiamos\".";
         // Expresión regular para strings entre comillas dobles
+        // Patrón Sugerido = "\"(.*?)\""
         String patron = "\"(.*?)\"";
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(texto);

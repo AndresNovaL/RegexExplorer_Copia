@@ -9,8 +9,9 @@ import java.util.regex.*;
 
 public class Reto2 {
     public static void main(String[] args) {
-        String texto = "El precio es 12.50 dólares, pero antes era 10.0.";
+        String texto = "El litro de gasolina cuesta 15.75 pesos, mientras que el pasaje del bus está en -2.50. Ayer caminé 3.2 km, aunque mi app marcó solo -2.9. Al final terminé gastando 20.00 en todo el día, aunque el banco me descontó -5.50 por comisión.";
         // Expresión regular para flotantes (números con punto decimal)
+        // Patrón Sugerido: patron = "-?\\b\\d+\\.\\d+\\b"
         String patron = "-?\\b\\d+\\.\\d+\\b";
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(texto);

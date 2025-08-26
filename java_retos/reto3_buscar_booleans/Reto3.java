@@ -9,8 +9,9 @@ import java.util.regex.*;
 
 public class Reto3 {
     public static void main(String[] args) {
-        String texto = "La respuesta es True, pero a veces es False.";
+        String texto = "En el examen de lógica respondí True en la primera pregunta, luego marqué False en la segunda. Mi amigo puso True en casi todas, pero al final la última era False.";
         // Expresión regular para booleanos (True o False, case-insensitive)
+        // Patrón Sugerido = "\\b(False|True)\\b"
         String patron = "\\b(True|False)\\b";
         Pattern pattern = Pattern.compile(patron, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(texto);

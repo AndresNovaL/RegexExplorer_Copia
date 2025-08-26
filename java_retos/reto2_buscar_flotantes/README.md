@@ -1,3 +1,7 @@
+# EDIT: Reto Solucionado
+
+Los pasos que realicé para resolver este reto fue primero cambiar el contenido dentro de la caja de texto para que contenga números flotantes tanto positivos como negativos. Para la instrucción, utilicé la misma que estaba allí (la coloqué como comentario para poder identificar la inicial con la final) ya que es fácil de entender y al mismo tiempo explicar, además de que trae el resultado esperado.
+
 # Reto 2: Buscar números flotantes en un texto (Java)
 
 ## Descripción
