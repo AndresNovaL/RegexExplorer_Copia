@@ -10,6 +10,7 @@ patron_flotantes = r"-?\b\d+\.\d+\b" # Patrón para extraer números flotantes
 patron_booleanos = r"\b(False|True)\b" # Patrón para extraer valores booleanos
 patron_string = r"\"(.*?)\"" # Patrón para extraer strings
 patron_listas = r"\[[^\]]+\]" # Patrón para extraer listas
+#patron_listas = r"\[\s*-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?)*\s*\]" -> Patrón para extraer solo listas numéricas.
 
 enteros = re.findall(patron_enteros, texto) 
 flotantes = re.findall(patron_flotantes, texto)
